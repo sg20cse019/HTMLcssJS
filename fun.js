@@ -25,7 +25,7 @@
 
 // higherOrder(Callback)
 
-//! object Methods 
+//! object Methods
 // let person = {
 //     name : "Loki",
 //     age : 21
@@ -171,12 +171,12 @@
 //     console.log("Hi!");
 // };
 
-//!ascii to alphabet
-// const Asciii = 66
-// let sum = String.fromCharCode(Asciii)
-// console.log(sum);
-//!alphabet to ascii example proving that it is anagram or not
-// function getAsciiSum(str) {
+//! ascii to alphabet
+//  const Asciii = 66
+//  let sum = String.fromCharCode(Asciii)
+//  console.log(sum);
+//! alphabet to ascii example proving that it is anagram or not
+//  function getAsciiSum(str) {
 //     let sum = 0;
 //     for (let i = 0; i < str.length; i++) {
 //       sum += str.charCodeAt(i);
@@ -371,9 +371,9 @@
 // .then((data)=>{console.log(data)})
 // .catch((err)=>{throw err})
 
-//fetch methods
+//!fetch methods
 
-// GET
+//! GET
 // fetch('./db.json',{
 //     method:'POST',
 //     body: JSON.stringify({ name: 'loki' })
@@ -381,7 +381,7 @@
 // .then((res)=>res.json())
 // .then((data)=>{console.log(data)})
 
-//POST
+//! POST
 // fetch('https://jsonplaceholder.typicode.com/posts', {
 //     method: 'POST',
 //     headers: {
@@ -402,7 +402,7 @@
 // setTimeout(() => console.log('eventloop'), 1000);
 // console.log('bye');
 
-//localstorage && sessionstorage
+//! localstorage && sessionstorage
 // let user = prompt('enter name')
 // sessionStorage.setItem('username',user)
 // console.log('Data Stored');
@@ -495,8 +495,6 @@
 //         return number * fac(number-1)}
 // }
 // console.log(fac(5))
-
-
 
 //! yt video (https://www.youtube.com/watch?v=qJGR9lLcRc0)
 //! 1. reverse a string
@@ -627,10 +625,9 @@
 //? method 1
 // let arr2 =arr.filter((x)=>{return x.gender=='male'})
 // console.log(arr2)
-//? method 2 
+//? method 2
 
-
-//! 14. reversing a array 
+//! 14. reversing a array
 // arr = [10,20,30,40,50]
 
 // let start = 0;
@@ -639,18 +636,18 @@
 // while(start<end){
 //     [arr[start],arr[end]]=[arr[end],arr[start]]
 //     start++
-//     end--    
+//     end--
 // }
 // console.log(arr)
 
-//! DOM 
+//! DOM
 // let div = document.getElementsByTagName('div');
 // console.log(div);
 
 // console.log(Array.isArray(div))
 // console.log(Array.from(div))
 
-//!LOOPS 
+//!LOOPS
 // let array = [10,20,30,40,50]
 //! For LOOP
 // for (let i = 0; i < array.length; i++) {
